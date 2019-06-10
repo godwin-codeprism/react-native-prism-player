@@ -1,0 +1,5 @@
+rootProject.name = 'PrismPlayApp'
+include ':react-native-prism-player'
+project(':react-native-prism-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-prism-player/android')
+
+include ':app'
